@@ -1,0 +1,15 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+.box-inherit.scrollbox-innerbox {
+	height: 29px !important;
+}
+
+.tabs-newtab-button {
+	height: 28px !important;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+.tabbrowser-tab[fadein]:not([pinned]) {
+	min-width: 120px !important;
+}
