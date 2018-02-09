@@ -110,22 +110,7 @@
 }
 
 /* Firefox only */
-@-moz-document url-prefix("http://127.0.0.1:7657") {
-	input[type="radio"], input[type="checkbox"] {
-		width: 0.01px !important;
-		min-width: 0.01px !important;
-		max-width: 0.01px !important;
-		height: 0.01px !important;
-		min-height: 0.01px !important;
-		max-height: 0.01px !important;
-	}
-}
 @-moz-document url-prefix() {
-	input[type="radio"], input[type="checkbox"] {
-		width: 0.01px;
-		height: 0.01px;
-		outline: 0;
-	}
 	* {
 		letter-spacing: 0 !important;
 		word-spacing: 0 !important;
