@@ -1,0 +1,62 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+/*
+Author: zcyzcy88
+Thanks:
+https://github.com/zcyzcy88/SelfColle/blob/master/FirefoxUI.css
+https://addons.mozilla.org/en-US/firefox/addon/dom-inspector-6622
+https://addons.mozilla.org/en-US/firefox/addon/small-tabs
+https://support.mozilla.org/en-US/questions/1001640
+http://forums.mozillazine.org/viewtopic.php?f=23&t=2801351
+*/
+
+@-moz-document url-prefix("about") {
+	* {
+		font-family: sans-serif !important;
+	}
+}
+::-moz-selection {
+	color: black !important;
+	background: rgba(128, 191, 255, 0.8) !important;
+}
+a::-moz-selection {
+	color: #00c !important;
+}
+
+#TabsToolbar {
+	margin-top: -1px;
+}
+.tab-background-start[selected=true]::after,
+.tab-background-start[selected=true]::before,
+.tab-background-start,
+.tab-background-end,
+.tab-background-end[selected=true]::after,
+.tab-background-end[selected=true]::before,
+.tabbrowser-tabs {
+	min-height: 28px !important;
+}
+
+#urlbar {
+	font-size: 15px !important;
+	line-height: 1.6 !important;
+	font-family: Roboto, sans-serif !important;
+}
+.textbox-input-box.urlbar-input-box {
+	font-family: Consolas, monospace !important;
+}
+#PopupAutoCompleteRichResult .autocomplete-richlistitem {
+	padding-left: 76px !important;
+}
+
+#nav-bar {
+	background-color: transparent !important;
+	background-image: none !important;
+	border-color: transparent !important;
+	box-shadow: none !important;
+}
+#urlbar {
+	margin: -1px !important;
+	border-width: 0px !important;
+}
+#main-window:not([disablechrome]) #navigator-toolbox::after {
+	display: none !important;
+}
