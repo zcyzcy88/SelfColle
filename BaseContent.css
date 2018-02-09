@@ -1,0 +1,109 @@
+/*
+Writed by zcyzcy88
+Thanks: https://github.com/necolas/normalize.css
+*/
+
+/* Fix */
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sub {
+	bottom: -0.25em;
+}
+sup {
+	top: -0.5em;
+}
+fieldset {
+	border: 1.5px solid silver;
+	margin: 0 2px;
+	padding: .35em .625em .75em;
+}
+abbr[title] {
+	border-bottom: 0;
+	text-decoration: underline;
+	text-decoration: underline dotted;
+}
+@media screen and (-moz-images-in-menus:0) {
+	input[type="radio"], input[type="checkbox"] {
+		width: 0.01px;
+		height: 0.01px;
+		outline: 0;
+	}
+}
+
+/* Improve */
+/*
+::selection {
+	background: rgba(0, 128, 255, 0.4) !important;
+}
+*/
+::selection {
+	color: black !important;
+	background: rgba(128, 191, 255, 0.8) !important;
+}
+a::selection {
+	color: #00c !important;
+}
+::-moz-selection {
+	color: black !important;
+	background: rgba(128, 191, 255, 0.8) !important;
+}
+a::-moz-selection {
+	color: #00c !important;
+}
+
+/* Text */
+body, button, input, optgroup, select, textarea {
+	font-size: 1em;
+	font-family: Roboto, Yunlin Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+pre, code, kbd, samp, var {
+	font-size: 0.9em;
+	font-family: SFMono-Regular, Consolas, monospace, sans-serif !important;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: local("Roboto");
+}
+@font-face {
+	font-family: "Helvetica";
+	src: local("Roboto");
+}
+@font-face {
+	font-family: "Arial";
+	src: local("Roboto");
+}
+@font-face {
+	font-family: "Times New Roman";
+	src: local("Georgia");
+}
+@font-face {
+	font-family: "Courier New";
+	src: local("Consolas");
+}
+@font-face {
+	font-family: "宋体";
+	src: local("Yunlin Sans");
+}
+@font-face {
+	font-family: "新宋体";
+	src: local("Yunlin Sans");
+}
+@font-face {
+	font-family: "SimSun";
+	src: local("Yunlin Sans");
+}
+@font-face {
+	font-family: "NSimSun";
+	src: local("Yunlin Sans");
+}
+/*
+San Francisco, Roboto, Segoe UI,
+Lucida Grande, Tahoma, Helvetica Neue, Helvetica, Arial,
+Yunlin Sans, Hiragino Kaku Gothic Pro, Hiragino Sans GB,
+Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol
+*/

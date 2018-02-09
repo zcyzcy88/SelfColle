@@ -1,0 +1,92 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+/*
+Writed by zcyzcy88
+Thanks:
+https://github.com/zcyzcy88/SelfColle/commit/49792f7c1a08dfb62b8023cfa4c09caff83deb0b
+https://addons.mozilla.org/en-US/firefox/addon/dom-inspector-6622
+https://addons.mozilla.org/en-US/firefox/addon/small-tabs
+https://userstyles.org/styles/99967/firefox-remove-borders-gradients-on-tab-nav-bars 
+*/
+
+@-moz-document url-prefix("about") {
+	* {
+		font-family: sans-serif !important;
+	}
+}
+::-moz-selection {
+	color: black !important;
+	background: rgba(128, 191, 255, 0.8) !important;
+}
+a::-moz-selection {
+	color: #00c !important;
+}
+
+#urlbar-zoom-button,
+#titlebar-min,
+#titlebar-max,
+#titlebar-close {
+	display: none !important;
+}
+
+#TabsToolbar {
+	min-height: 28px !important;
+	margin-top: -2px !important;
+}
+.tab-background-start[selected=true]::after,
+.tab-background-start[selected=true]::before,
+.tab-background-start,
+.tab-background-end,
+.tab-background-end[selected=true]::after,
+.tab-background-end[selected=true]::before,
+.tabbrowser-tabs {
+	min-height: 28px !important;
+}
+
+.tab-throbber:not([pinned]),
+.tab-icon-image:not([pinned]) {
+	-moz-margin-end: 3px !important;
+}
+.tab-content:not([pinned]) {
+	-moz-padding-start: 4px !important;
+	-moz-padding-end: 4px !important;
+}
+.tab-close-button:not([pinned]) {
+	-moz-margin-start: 3px !important;
+}
+
+#PopupAutoCompleteRichResult .autocomplete-richlistitem {
+	font-family: sans-serif;
+	padding-left: 75px !important;
+}
+
+#urlbar {
+	font-size: 15px !important;
+	border: none !important;
+	box-shadow: none !important;
+	transition: 0.15s !important;
+}
+.textbox-input-box.urlbar-input-box {
+	font-family: Consolas, monospace !important;
+	line-height: 1.75 !important;
+}
+
+#nav-bar {
+	background: none !important;
+}
+#nav-bar > * {
+	margin-top: -0px !important;
+	margin-bottom: -0px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+#main-window:not([disablechrome]) #navigator-toolbox::after {
+	display: none !important;
+}
+
+#context-gtranslate menupopup {
+	max-width: 280px;
+}
+
+#devtools-webconsole #output-wrapper {
+	overflow-x: hidden;
+}
