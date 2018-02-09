@@ -41,14 +41,14 @@ abbr[title] {
 }
 */
 ::selection {
-	color: black !important;
+	color: #000 !important;
 	background: rgba(128, 191, 255, 0.8) !important;
 }
 a::selection {
 	color: #00c !important;
 }
 ::-moz-selection {
-	color: black !important;
+	color: #000 !important;
 	background: rgba(128, 191, 255, 0.8) !important;
 }
 a::-moz-selection {
@@ -58,7 +58,7 @@ a::-moz-selection {
 /* Text */
 body, button, input, optgroup, select, textarea {
 	font-size: 1em;
-	font-family: Roboto, Yunlin Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+	font-family: Roboto, Yunlin Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif;
 }
 pre, code, kbd, samp, var {
 	font-size: 0.9em;
