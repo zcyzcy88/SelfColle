@@ -44,6 +44,7 @@ a::-moz-selection {
 	font-family: Consolas, monospace !important;
 }
 #PopupAutoCompleteRichResult .autocomplete-richlistitem {
+	font-family: sans-serif;
 	padding-left: 76px !important;
 }
 
