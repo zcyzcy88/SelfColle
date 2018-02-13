@@ -13,3 +13,7 @@
 .tabbrowser-tab[fadein]:not([pinned]) {
 	min-width: 120px !important;
 }
+
+treechildren:-moz-tree-row {
+	height: 24px !important;
+}
