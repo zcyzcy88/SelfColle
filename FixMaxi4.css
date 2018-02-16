@@ -11,11 +11,10 @@
 .tabbrowser-tab[fadein]:not([pinned]) {
 	min-width: 120px !important;
 }
-
 treechildren:-moz-tree-row {
 	height: 22px !important;
 }
-* {
+menupopup * {
 	font-family: Roboto, Yunlin Sans, sans-serif !important;
 }
 ::-moz-selection {
