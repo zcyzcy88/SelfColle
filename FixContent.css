@@ -115,8 +115,4 @@
 		letter-spacing: 0 !important;
 		word-spacing: 0 !important;
 	}
-	table {
-		border-collapse: separate !important;
-		border-spacing: 0px;
-	}
 }
