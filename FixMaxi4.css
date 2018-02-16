@@ -3,17 +3,25 @@
 .box-inherit.scrollbox-innerbox {
 	height: 29px !important;
 }
-
 .tabs-newtab-button {
 	height: 28px !important;
 	margin-top: 0px !important;
 	margin-bottom: 0px !important;
 }
-
 .tabbrowser-tab[fadein]:not([pinned]) {
 	min-width: 120px !important;
 }
 
 treechildren:-moz-tree-row {
-	height: 20px !important;
+	height: 22px !important;
+}
+* {
+	font-family: Roboto, Yunlin Sans, sans-serif !important;
+}
+::-moz-selection {
+	color: black !important;
+	background: rgba(128, 191, 255, 0.8) !important;
+}
+a::-moz-selection {
+	color: #00c !important;
 }
