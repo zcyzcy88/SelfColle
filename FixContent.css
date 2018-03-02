@@ -108,11 +108,3 @@
 		line-height: 1.6 !important;
 	}
 }
-
-/* Firefox only */
-@-moz-document url-prefix() {
-	* {
-		letter-spacing: 0 !important;
-		word-spacing: 0 !important;
-	}
-}
