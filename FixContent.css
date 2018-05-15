@@ -80,6 +80,9 @@
 	.ThreadedConversation-tweet:not(.is-hiddenAncestor) ~ .ThreadedConversation-tweet::before, .ThreadedConversation-tweet::after, .ThreadedConversation-moreReplies::before, .ThreadedConversation-unavailableTweet::before, .ThreadedConversation-unavailableTweet::after, .ThreadedConversation--permalinkTweetWithAncestors::before {
 		pointer-events: none;
 	}
+	.js-stream-item.js-activity-quote > * {
+		outline: 5px solid red;
+	}
 }
 @-moz-document domain("plus.google.com") {
 	img {
