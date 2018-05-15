@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1517015911875,
-  "version": "1.14.24",
+  "timeStamp": 0,
+  "version": "1.15.24",
   "userSettings": {
     "advancedUserEnabled": false,
     "alwaysDetachLogger": false,
@@ -9,7 +9,7 @@
     "collapseBlocked": true,
     "colorBlindFriendly": false,
     "contextMenuEnabled": false,
-    "dynamicFilteringEnabled": false,
+    "dynamicFilteringEnabled": true,
     "externalLists": "https://raw.githubusercontent.com/liamja/Prebake/master/obtrusive.txt\nhttps://raw.githubusercontent.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt\nhttps://www.kiboke-studio.hr/i-dont-care-about-cookies/abp",
     "firewallPaneMinimized": true,
     "hyperlinkAuditingDisabled": true,
@@ -23,6 +23,7 @@
     "webrtcIPAddressHidden": false
   },
   "selectedFilterLists": [
+    "https://raw.githubusercontent.com/liamja/Prebake/master/obtrusive.txt",
     "https://www.kiboke-studio.hr/i-dont-care-about-cookies/abp",
     "https://raw.githubusercontent.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt",
     "VIE-1",
@@ -33,7 +34,6 @@
     "spa-1",
     "RUS-0",
     "RUS-2",
-    "POL-1",
     "POL-0",
     "NLD-0",
     "LVA-0",
@@ -82,201 +82,23 @@
     "ublock-badware",
     "ublock-annoyances",
     "ublock-filters",
-    "user-filters",
-    "https://raw.githubusercontent.com/liamja/Prebake/master/obtrusive.txt"
+    "user-filters"
   ],
-  "hiddenSettingsString": "assetFetchTimeout 30\nautoUpdateAssetFetchPeriod 120\nautoUpdatePeriod 7\nignoreRedirectFilters false\nignoreScriptInjectFilters false\nmanualUpdateAssetFetchPeriod 2000\npopupFontSize unset\nsuspendTabsUntilReady false\nuserResourcesLocation unset",
-  "netWhitelist": "4chan.org\nabout-scheme\nbehind-the-scene\nbilibili.com\nchrome-extension-scheme\nchrome-scheme\ndigiex.net\ngelbooru.com\nmcmod.cn\nmoegirl.org\nmoz-extension-scheme\nopera-scheme\npalemoon.org\nplus.google.com\nquora.com\nsaucenao.com\ntwitter.com\nuserstyles.org\nvivaldi-scheme\nwhatanime.ga\nwired.com\nzdic.net",
+  "hiddenSettings": {
+    "assetFetchTimeout": 30,
+    "autoUpdateAssetFetchPeriod": 120,
+    "autoUpdatePeriod": 7,
+    "ignoreRedirectFilters": false,
+    "ignoreScriptInjectFilters": false,
+    "streamScriptInjectFilters": false,
+    "manualUpdateAssetFetchPeriod": 2000,
+    "popupFontSize": "unset",
+    "suspendTabsUntilReady": false,
+    "userResourcesLocation": "unset"
+  },
+  "netWhitelist": "4chan.org\nabout-scheme\nbehind-the-scene\nbilibili.com\nblog.sina.com.cn\nchrome-extension-scheme\nchrome-scheme\ndigiex.net\ngelbooru.com\nmcmod.cn\nmoegirl.org\nmoz-extension-scheme\nopera-scheme\npalemoon.org\nplus.google.com\nquora.com\nsaucenao.com\ntwitter.com\nuserstyles.org\nvivaldi-scheme\nwhatanime.ga\nwired.com\nyoutube.com\nzdic.net",
   "dynamicFilteringString": "behind-the-scene * 3p-frame noop\nbehind-the-scene * 3p noop",
   "urlFilteringString": "",
-  "hostnameSwitchesString": "",
-  "userFilters": "google.com###als\ngoogle.com###footer\ngoogle.com###subform_ctrl\ntranslate.google.com###gt-ft-res\ntranslate.google.com###gt-ft\ntranslate.google.com###gt-promo-lr\nbugs.chromium.org###thumbnail_box\n",
-  "filterLists": {
-    "https://www.kiboke-studio.hr/i-dont-care-about-cookies/abp": {
-      "off": false
-    },
-    "https://raw.githubusercontent.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt": {
-      "off": false
-    },
-    "VIE-1": {
-      "off": false
-    },
-    "https://adguard.com/filter-rules.html?id=13": {
-      "off": false
-    },
-    "SWE-1": {
-      "off": false
-    },
-    "https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt": {
-      "off": false
-    },
-    "https://easylist-downloads.adblockplus.org/easylistspanish.txt": {
-      "off": false
-    },
-    "spa-1": {
-      "off": false
-    },
-    "https://easylist-downloads.adblockplus.org/advblock.txt": {
-      "off": false
-    },
-    "https://adguard.com/en/filter-rules.html?id=1": {
-      "off": false
-    },
-    "POL-1": {
-      "off": false
-    },
-    "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-adblock-filters/adblock.txt": {
-      "off": false
-    },
-    "https://easylist-downloads.adblockplus.org/easylistdutch.txt": {
-      "off": false
-    },
-    "https://notabug.org/latvian-list/adblock-latvian/raw/master/lists/latvian-list.txt": {
-      "off": false
-    },
-    "http://margevicius.lt/easylistlithuania.txt": {
-      "off": false
-    },
-    "https://raw.githubusercontent.com/yous/YousList/master/youslist.txt": {
-      "off": false
-    },
-    "https://raw.githubusercontent.com/gfmaster/adblock-korea-contrib/master/filter.txt": {
-      "off": false
-    },
-    "JPN-1": {
-      "off": false
-    },
-    "https://easylist-downloads.adblockplus.org/easylistitaly.txt": {
-      "off": false
-    },
-    "https://dl.dropboxusercontent.com/u/1289327/abpxfiles/filtri.txt": {
-      "off": false
-    },
-    "https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt": {
-      "off": false
-    },
-    "http://adblock.gardar.net/is.abp.txt": {
-      "off": false
-    },
-    "IRN-0": {
-      "off": false
-    },
-    "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt": {
-      "off": false
-    },
-    "https://raw.githubusercontent.com/szpeter80/hufilter/master/hufilter.txt": {
-      "off": false
-    },
-    "https://www.void.gr/kargig/void-gr-filters.txt": {
-      "off": false
-    },
-    "https://easylist-downloads.adblockplus.org/liste_fr.txt": {
-      "off": false
-    },
-    "http://adb.juvander.net/Finland_adb.txt": {
-      "off": false
-    },
-    "http://adblock.ee/list.php": {
-      "off": false
-    },
-    "https://adblock.dk/block.csv": {
-      "off": false
-    },
-    "https://easylist-downloads.adblockplus.org/easylistgermany.txt": {
-      "off": false
-    },
-    "https://raw.githubusercontent.com/tomasko126/easylistczechandslovak/master/filters.txt": {
-      "off": false
-    },
-    "https://easylist-downloads.adblockplus.org/easylistchina.txt": {
-      "off": false
-    },
-    "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt": {
-      "off": false
-    },
-    "http://stanev.org/abp/adblock_bg.txt": {
-      "off": false
-    },
-    "https://easylist-downloads.adblockplus.org/Liste_AR.txt": {
-      "off": false
-    },
-    "assets/thirdparties/pgl.yoyo.org/as/serverlist": {
-      "off": false
-    },
-    "http://winhelp2002.mvps.org/hosts.txt": {
-      "off": false
-    },
-    "http://hosts-file.net/.%5Cad_servers.txt": {
-      "off": false
-    },
-    "http://someonewhocares.org/hosts/hosts": {
-      "off": false
-    },
-    "https://easylist-downloads.adblockplus.org/fanboy-social.txt": {
-      "off": false
-    },
-    "fanboy-cookiemonster": {
-      "off": false
-    },
-    "https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt": {
-      "off": false
-    },
-    "adguard-annoyance": {
-      "off": false
-    },
-    "https://raw.githubusercontent.com/Dawsey21/Lists/master/adblock-list.txt": {
-      "off": false
-    },
-    "assets/thirdparties/mirror1.malwaredomains.com/files/justdomains": {
-      "off": false
-    },
-    "assets/thirdparties/www.malwaredomainlist.com/hostslist/hosts.txt": {
-      "off": false
-    },
-    "https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt": {
-      "off": false
-    },
-    "https://www.fanboy.co.nz/enhancedstats.txt": {
-      "off": false
-    },
-    "assets/thirdparties/easylist-downloads.adblockplus.org/easyprivacy.txt": {
-      "off": false
-    },
-    "adguard-spyware": {
-      "off": false
-    },
-    "assets/thirdparties/easylist-downloads.adblockplus.org/easylist.txt": {
-      "off": false
-    },
-    "adguard-generic": {
-      "off": false
-    },
-    "assets/ublock/unbreak.txt": {
-      "off": false
-    },
-    "ublock-abuse": {
-      "off": false
-    },
-    "assets/ublock/privacy.txt": {
-      "off": false
-    },
-    "assets/ublock/badware.txt": {
-      "off": false
-    },
-    "ublock-annoyances": {
-      "off": false
-    },
-    "assets/ublock/filters.txt": {
-      "off": false
-    },
-    "assets/user/filters.txt": {
-      "off": false
-    },
-    "https://raw.githubusercontent.com/liamja/Prebake/master/obtrusive.txt": {
-      "off": false
-    },
-    "assets/ublock/experimental.txt": {
-      "off": true
-    }
-  }
+  "hostnameSwitchesString": "no-cosmetic-filtering: zhuanlan.zhihu.com true\nno-cosmetic-filtering: www.zhihu.com true",
+  "userFilters": "google.com###als\ngoogle.com###footer\ngoogle.com###subform_ctrl\ntranslate.google.com###gt-ft-res\ntranslate.google.com###gt-ft\ntranslate.google.com###gt-promo-lr\nbugs.chromium.org###thumbnail_box\n"
 }
